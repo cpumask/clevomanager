@@ -4,12 +4,12 @@ Library for manually executing commands for Clevo laptops using the Clevo WMI in
 To use it is necessary to have installed the Control Center or to manually install the WMI DLL located in **./installer** folder executing **install.bat** as administrator.
 In the latter case is not needed to have Control Center installed :smiley:
 
-The **ClevoManager** folder is the C# project library with an example application.
+The **ClevoManager** folder is the C# project library with an example application.  
 **Note:** Only the keyboard lighting functions are implemented (for now).
 
 The **scripts** folder contains a couple of PowerShell scripts to turn off/on the keyboard backlights.
 
-**Important:** To use either (the library or the scripts) is necessary to run is as administrator.
+**Important:** To use either (the library or the scripts) is necessary to run it as administrator.
 
 All the magic values passed on the functions are obtained by using a .NET decompiler on the Control Center applications.
 Feel free to use it, modify it, submit PR.
